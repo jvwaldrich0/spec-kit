@@ -7,6 +7,14 @@ All notable changes to the Specify CLI and templates are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.22] - 2025-10-28
+
+### Fixed
+
+- Warp template packages now properly built and available for download
+  - Release workflow now includes `spec-kit-template-warp-sh-*.zip` and `spec-kit-template-warp-ps-*.zip`
+  - Users can now initialize projects with `specify init . --ai warp --script sh`
+
 ## [0.0.21] - 2025-10-28
 
 ### Added
